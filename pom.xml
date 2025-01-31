@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.bytestreamparser</groupId>
-    <artifactId>bytestreamparser-netty</artifactId>
+    <artifactId>netty</artifactId>
     <version>${revision}</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -46,6 +46,14 @@
         <system>GitHub Issues</system>
         <url>https://github.com/bytestreamparser/bytestreamparser-netty/issues</url>
     </issueManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/bytestreamparser/bytestreamparser-netty</url>
+        </repository>
+    </distributionManagement>
 
     <dependencyManagement>
         <dependencies>
