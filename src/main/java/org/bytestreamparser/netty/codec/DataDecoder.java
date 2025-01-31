@@ -11,7 +11,7 @@ import org.bytestreamparser.api.parser.DataParser;
 public abstract class DataDecoder<V> extends ByteToMessageDecoder {
   private final DataParser<V> parser;
 
-  public DataDecoder(DataParser<V> parser) {
+  protected DataDecoder(DataParser<V> parser) {
     this.parser = parser;
   }
 
